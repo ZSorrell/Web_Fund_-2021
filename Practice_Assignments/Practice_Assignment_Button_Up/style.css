@@ -1,0 +1,36 @@
+.Search_button  {
+    border-radius: 20px;
+    border: thin solid teal;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    color: teal;
+}
+
+.Plus_button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: turquoise;
+    color: white;
+    font-size: 150%;
+}
+
+.Create_Account_button {
+    border: thin solid black;
+    background-color: dodgerblue;
+    color: white;
+    height: 35px;
+    width: 165px;
+    font-size: 95%;
+    box-shadow: 5px 2px 0px black;
+}
+
+div {
+    margin-top: 75px;
+    margin-left: 50px;
+    }
+
+div{
+    padding: 0px;
+}
