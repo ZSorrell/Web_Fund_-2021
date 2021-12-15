@@ -1,0 +1,16 @@
+#container {
+    width: 1000px;
+    height: 750px;
+    display: flex;
+}
+
+.redcolumn {
+    background-color: red;
+    display: inline-block;
+    flex: 1;
+}
+
+#middlewhitecolumn {
+    background-color: white;
+    flex: 2;
+}
