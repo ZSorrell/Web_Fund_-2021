@@ -73,3 +73,50 @@ console.log("outside of the loop" + i)
 for(var number = 50; number > 0; number--){
     console.log(number)
 }
+
+//Week1 Day 3 Algos
+//Conditionals
+
+var age = 16 
+
+if(age >= 21){
+    console.log("You can buy alcohol and tobacco")
+}
+
+else if(age >= 18){
+    console.log("You can but lottery tickets")
+}
+
+else if(age >= 16){
+    console.log("YUou can drive")
+}
+
+else {
+    console.log("Come back when your'e older")
+}
+
+//or
+
+var old_enough = true
+
+if(old_enough){
+    console.log("You can buy a lottery ticket")
+}
+
+var first_name = "Zack"
+var last_name = "Sorrell"
+if(first_name = "Zack" && last_name == "Sorrell"){
+    console.log(last_name, first_name)
+}
+
+if(first_name.length > 0){
+
+}
+
+if(last_name.lenght > 0){
+
+}
+
+if(email .valid()){
+    
+}
