@@ -176,12 +176,17 @@
     height: 100px;
     padding-bottom: 10px;
     padding-left: 5px;
-} 
+}
+
+.todd-full-name{
+
+}
 
 .todd-accept-button, .todd-decline-button{
     width: 50px;
     height: 50px;
     padding-bottom: 10px;
+    padding-right: 5px;
 }
 
 .bottom-connection-person-picture-name{
@@ -198,6 +203,24 @@
 .phil-accept-button, .phil-decline-button{
     width: 50px;
     height: 50px;
+    padding-right: 5px;
+}
+
+.my-connections-header-box{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.user-profile-picture-my-connections{
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 
