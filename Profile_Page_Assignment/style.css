@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 1600px;
+    height: 1300px;
+    background-color: grey;
+    font-family: monospace;
+}
+
+#navbar{
+    background-color: black;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+
+.navbar-title{
+    font-size: 50px;
+}
+
+.Sign-Out{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+
+#body-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-left{
+    border: 1px solid black;
+    width: 600px;
+    margin-left: 275px;
+}
+
+.profile-section{
+    margin-top: 30px;
+}
+
+.header-box-profile{
+    background-color: teal;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.user-circle{
+    width: 80;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.bottom-info-box-profile{
+    background-color: white;
+    border: 4px solid black;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px
+}
+
+.bottom-info-box-profile-full-name{
+    font-size: 40px;
+}
+
+.map-marker{
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+}
+
+.city-name{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.description-myself-line-top{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.settings-gear{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.education{
+    background-color: white;
+    border:  4px solid black;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.header-box-education{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.education-title{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.bottom-info-box-education{
+    padding: 30px;
+}
+
+.date-of-class{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.column-right{
+    border: 1px solid black;
+    width: 400px;
+    margin-right: 275px;
+}
+
+.connections-top-box{
+    margin-top: 30px;
+}
+
+.top-connections-request-header-box{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.image-top-connections-header-box{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.top-box-connection-request-info{
+    background-color: white;
+    border: 4px solid black;
+}
+
+.my-connections-second-box{
+    background-color: white;
+    border: 4px solid black;
+}
+
+.top-box-connection-request-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.top-connection-person-picture-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todd-profile-picture{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+} 
+
+.todd-accept-button, .todd-decline-button{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.bottom-connection-person-picture-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phil-profile-picture{
+    width: 100px;
+    height: 100px;
+    padding-left: 5px;
+} 
+
+.phil-accept-button, .phil-decline-button{
+    width: 50px;
+    height: 50px;
+}
+
+
+
