@@ -18,7 +18,7 @@
 .card-header-box {
     background-color: teal;
     height: 110px;
-    margin-bottom: 90px;
+    margin-bottom: 55px;
     padding-left: 40px;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .map-marker {
-    height: 25px;
-    width: 18px;
+    height: 20px;
+    width: 14px;
 }
 
 .settings-gear-icon {
@@ -47,4 +47,24 @@
 
 .edit-profile {
     display: inline-block;
+}
+
+a {
+    margin-left: 35px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 140%;
+}
+
+.description-of-me{
+    margin-top: 10px;
 }
