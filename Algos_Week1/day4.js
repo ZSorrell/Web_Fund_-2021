@@ -120,4 +120,4 @@ function reverseArraySwap(array){
     return array
 }
 
-console.log(reverseArraySwap([a,b,c,d,e]))
+console.log(reverseArraySwap(["a","b","c","d","e"]))
