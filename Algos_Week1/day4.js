@@ -108,7 +108,7 @@ console.log(reverseArray)
 
 function reverseArraySwap(array){
     //Iterate through the array
-    for(var index = 0; index < array.length; index++){
+    for(var index = 0; index < array.length/2; index++){
         //Store one of the variables in temp variable
         var temp = array[index]
         //Replace the stored value
