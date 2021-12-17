@@ -12,7 +12,7 @@
             <div id= "navbar">
                 <h1 class="Page-Title">Dojonary</h1>
                 <input type="text" name= "Search-bar" class= "Search-bar">
-                <button class= "Login-Button">Login</button>
+                <button class= "Login-Button" onclick ="Logout(this)">Login</button>
             </div>
             <div class="main-body">
                 <div class="col-left">
@@ -21,7 +21,7 @@
                             <h1 class= "box-one-title">ninja</h1>
                             <p class= "verbage-top-box">noun</p>
                             <p class="plural-top-box">Plurat ninjas</p>
-                            <button class= "like-button-top-box">13 likes</button>
+                            <button class= "like-button-top-box" onclick="alert('Ninja was liked!')">13 likes</button>
                         </div>
                         <div class="right-side-top-box">
                             <p class= "definition-top-box">A practionioner skilled in the Japanese art of ninjustsu</p>
@@ -32,7 +32,7 @@
                             <h1 class= "box-two-title">ninja</h1>
                             <p class= "verbage-bottom-box">noun</p>
                             <p class="plural-bottom-box">Plurat ninjas</p>
-                            <button class= "like-button-bottom-box">37 likes</button>
+                            <button class= "like-button-bottom-box" onclick="alert('Ninja was liked!')">37 likes</button>
                         </div>
                         <div class="right-side-bottom-box">
                             <p class= "definition-bottom-box">A programmer who breaks down problems with zen-like focus</p>
@@ -43,7 +43,7 @@
                     <div class="small-box-top-right-col">
                         <h1 class= "title-definiton-top-box-right-col">Dojonary is defined by <strong>YOU</strong></h1>
                         <div>
-                            <button class= "Definition-push-button">Add Definition</button>
+                            <button class= "Definition-push-button" onclick="hide(this)">Add Definition</button>
                         </div>
                     </div>
                 </div>
