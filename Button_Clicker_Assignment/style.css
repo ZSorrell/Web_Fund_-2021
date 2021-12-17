@@ -16,10 +16,10 @@
     align-items: center;
     height: 75px;
     margin-left: 130px;
+    margin-right: 133px;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
-    border: 2px dotted black;
 }
 
 .Page-Title{
@@ -46,8 +46,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: lightcoral;
-    border: 2px dotted black ;
+    background-color: white;
 }
 
 .col-left{
@@ -60,7 +59,11 @@
     justify-content: space-around;
     align-items: center;
     height: 250px;
-    border: 2px dotted black;
+    border: 2px solid black;
+}
+
+.left-side-top-box{
+    margin-right: 50px;
 }
 
 .box-one-title{
@@ -68,6 +71,7 @@
 }
 
 .verbage-top-box{
+    margin-left: 40px;
     font-size: 20px;
     font-style: italic;
 }
@@ -75,12 +79,14 @@
 .plural-top-box{
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 .like-button-top-box{
     width: 90px;
     height: 30px;
     margin-top: 60px;
+    margin-left: 15px;
     background-color: gold;
     color: black;
     border: 1px solid black;
@@ -89,15 +95,20 @@
 
 .definition-top-box{
     width: 280px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .bottom-definition-box{
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 250px;
-    border: 2px dotted black;
+    border: 2px solid black;
+}
+
+.left-side-bottom-box{
+    margin-right: 50px;
 }
 
 .box-two-title{
@@ -105,6 +116,7 @@
 }
 
 .verbage-bottom-box{
+    margin-left: 40px;
     font-size: 20px;
     font-style: italic;
 }
@@ -112,12 +124,14 @@
 .plural-bottom-box{
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 .like-button-bottom-box{
     width: 90px;
     height: 30px;
     margin-top: 60px;
+    margin-left: 15px;
     background-color: gold;
     color: black;
     border: 1px solid black;
@@ -126,15 +140,15 @@
 
 .definition-bottom-box{
     width: 280px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .small-box-top-right-col{
     height: 180px;
     width: 300px;
-    margin-bottom: 325px;
+    margin-bottom: 345px;
     margin-right: 100px;
-    border: 2px dotted black;
+    border: 2px solid black;
 }
 
 .title-definiton-top-box-right-col{
