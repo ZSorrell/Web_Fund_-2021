@@ -1,6 +1,6 @@
 //Print Odds 1-20
 
-for(i = 1; 1 < 21; i++){
+for(var i = 1; 1 < 21; i++){
     if(i % 2 !== 0){
         console.log(i)
     }
@@ -8,7 +8,7 @@ for(i = 1; 1 < 21; i++){
 
 //Decreasing Multiples of 3
 
-for(i = 100; i >= 0; i--){
+for(var i = 100; i >= 0; i--){
     if(i % 3 == 0){
         console.log(i)
     }
