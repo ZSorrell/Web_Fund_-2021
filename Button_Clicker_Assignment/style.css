@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+}
+
+#navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 2px dotted black;
+}
+
+.Page-Title{
+    font-size: 50px;
+}
+
+.Search-bar{
+    width: 400px;
+    height: 20px;
+}
+
+.Login-Button{
+    width: 70px;
+    height: 25px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 2px 0px black;
+}
+
+.main-body{
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightcoral;
+    border: 2px dotted black ;
+}
+
+.col-left{
+    width: 600px;
+}
+
+.top-definition-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    border: 2px dotted black;
+}
+
+.box-one-title{
+    font-size: 60px;
+}
+
+.verbage-top-box{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.definition-top-box{
+    width: 280px;
+}
+
+.bottom-definition-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    border: 2px dotted black;
+}
+
+.box-two-title{
+    font-size: 60px;
+}
+
+.small-box-top{
+    height: 200px;
+    margin-bottom: 304px;
+    border: 2px dotted black;
+}
+
+.verbage-bottom-box{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.plural-bottom-box{
+    font-size: 20px;
+}
+
+.definition-bottom-box{
+    width: 280px;
+}
