@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     height: 75px;
+    margin-left: 130px;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
@@ -51,6 +52,7 @@
 
 .col-left{
     width: 600px;
+    margin-left: 100px;
 }
 
 .top-definition-box{
@@ -70,8 +72,24 @@
     font-style: italic;
 }
 
+.plural-top-box{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.like-button-top-box{
+    width: 90px;
+    height: 30px;
+    margin-top: 60px;
+    background-color: gold;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 5px 2px 0px black;
+}
+
 .definition-top-box{
     width: 280px;
+    font-size: 20px;
 }
 
 .bottom-definition-box{
@@ -86,12 +104,6 @@
     font-size: 60px;
 }
 
-.small-box-top{
-    height: 200px;
-    margin-bottom: 304px;
-    border: 2px dotted black;
-}
-
 .verbage-bottom-box{
     font-size: 20px;
     font-style: italic;
@@ -99,8 +111,45 @@
 
 .plural-bottom-box{
     font-size: 20px;
+    margin-top: 20px;
+}
+
+.like-button-bottom-box{
+    width: 90px;
+    height: 30px;
+    margin-top: 60px;
+    background-color: gold;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 5px 2px 0px black;
 }
 
 .definition-bottom-box{
     width: 280px;
+    font-size: 20px;
+}
+
+.small-box-top-right-col{
+    height: 180px;
+    width: 300px;
+    margin-bottom: 325px;
+    margin-right: 100px;
+    border: 2px dotted black;
+}
+
+.title-definiton-top-box-right-col{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.Definition-push-button{
+    width: 260px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 5px 2px 0px black;
 }
