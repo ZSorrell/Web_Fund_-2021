@@ -6,7 +6,7 @@
 #container{
     width: 1600px;
     height: 1000px;
-    background-color: grey;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -42,7 +42,6 @@
 .Sign-Out{
     background-color: dodgerblue;
     color: white;
-    border: 1px solid dodgerblue;
 }
 
 #body-info{
@@ -95,6 +94,7 @@
     width: 20px;
     height: 30px;
     display: inline-block;
+    margin-top: 10px;
 }
 
 .city-name{
@@ -202,9 +202,18 @@
 
 .todd-full-name{
     font-size: 25px;
+    margin-left: 30px;
 }
 
-.todd-accept-button, .todd-decline-button{
+.todd-accept-button{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-left: 60px;
+} 
+
+.todd-decline-button{
     width: 25px;
     height: 25px;
     padding-bottom: 10px;
@@ -224,9 +233,17 @@
 
 .phil-full-name{
     font-size: 25px;
+    margin-left: 35px;
 }
 
-.phil-accept-button, .phil-decline-button{
+.phil-accept-button{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    margin-left: 68px;
+} 
+
+.phil-decline-button{
     width: 25px;
     height: 25px;
     padding-right: 5px;
@@ -273,6 +290,7 @@
 .adrien-full-name{
     font-size: 25px;
     padding-left: 10px;
+    margin-left: 20px;
 }
 
 .anne-profile{
@@ -289,6 +307,7 @@
 .anne-full-name{
     font-size: 25px;
     padding-left: 10px;
+    margin-left: 20px;
 }
 
 .alayne-profile{
@@ -305,6 +324,7 @@
 .alayne-full-name{
     font-size: 25px;
     padding-left: 10px;
+    margin-left: 20px;
 }
 
 .arry-profile{
@@ -320,6 +340,7 @@
 .arry-full-name{
     font-size: 25px;
     padding-left: 10px;
+    margin-left: 20px;
 }
 
 .view-more-bottom-box{
