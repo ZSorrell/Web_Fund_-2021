@@ -6,5 +6,5 @@ function hide(element){
     element.remove()
 }
 function alert(element){
-    element.alert()
+    element.alert("Ninja was liked!")
 }
