@@ -5,6 +5,6 @@ function Logout(element){
 function hide(element){
     element.remove()
 }
-function alert(element){
-    element.alert("Ninja was liked!")
+function onclick(element){
+    alert("Ninja was liked!")
 }
