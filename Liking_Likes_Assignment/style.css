@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#container{
+    width: 1400px;
+    height: 800px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.nav-bar{
+    width: 726px;
+    height: 60px;
+    margin-left: 439px;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.main-page-title{
+    width: 1600px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body{
+    width: 1600px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-col{
+    width: 500px;
+    height: 600px;
+    margin-left: 440px;
+} 
+
+.profile-box{
+    height: 220px;
+    width: 170px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.profile-picture{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 40px;
+    margin-left: 53px;
+    margin-top: 10px;
+}
+
+.profile-link{
+    margin-left: 35px;
+}
+
+.profile-full-name{
+    font-size: 20px;
+    margin-left: 31px;
+    margin-top: 45px;
+}
+
+.right-col {
+    width: 500px;
+    height: 600px;
+    margin-right: 440px;
+}
+
+.like-box-one, .like-box-two, .like-box-three{
+    height: 150px;
+    width: 500px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.like-box-two, .like-box-three{
+    margin-top: 25px;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+}
+
+.user-name-one, .user-name-two, .user-name-three{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.number-of-likes-one{ 
+    margin-left: 232px;
+    margin-top: 20px;
+}
+
+.number-of-likes-two{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.number-of-likes-three{
+    margin-left: 239px;
+    margin-top: 20px;
+}
+
+.like-button-one{
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 3px 4px 0px black;
+    width: 55px;
+    height: 30px;
+}
+
+.like-button-two{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 3px 4px 0px black;
+    width: 55px;
+    height: 30px;
+}
+
+.like-button-three{
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 3px 4px 0px black;
+    width: 55px;
+    height: 30px;
+}
+
+
+.filler-text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
