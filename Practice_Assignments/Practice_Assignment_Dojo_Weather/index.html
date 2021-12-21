@@ -11,16 +11,16 @@
         <div id="container">
             <div id="navbar">
                 <h1>Dojo Weather</h1>
-                <p onclick="message(this)" class="Burbank"></p>Burbank</p>
-                <p class="Chicago"></p>Chicago</p>
-                <p class="Dallas"></p>Dallas</p>
+                <p onclick="message()" class="Burbank">Burbank</p>
+                <p class="Chicago">Chicago</p>
+                <p class="Dallas">Dallas</p>
             </div>
             <div id="tempbar">
                 <h1>San Jose</h1>
                 <p>show temperature in</p>
                 <select name="temperature" id="temperature">
-                    <option>C</option>
-                    <option>F</option>
+                    <option onclick="swapToFar()">C</option>
+                    <option onclick="swapToCel()">F</option>
                 </select>
             </div>
             <div id="tempbody">

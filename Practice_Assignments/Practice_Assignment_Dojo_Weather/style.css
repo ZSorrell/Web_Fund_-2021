@@ -16,6 +16,7 @@
     color: white;
     font-size: 23px;
     height: 80px;
+    width: 1150px;
 }
 
 #navbar > h1{
@@ -26,8 +27,12 @@
     margin-left: 150px;
 }
 
-.Chicago, .Dallas{
-    margin: 30px;
+.Chicago{
+    margin: 40px;
+}
+
+.Dallas{
+    margin-left: 10px;
 }
 
 #tempbar{
@@ -156,8 +161,7 @@
 
 #cookie-alert{
     background-color: lightgray;
-    border: 1px dotted black;
-    width: 833px;
+    width: 835px;
     margin-left: 150px;
     margin-top: 20px;
     height: 150px;
