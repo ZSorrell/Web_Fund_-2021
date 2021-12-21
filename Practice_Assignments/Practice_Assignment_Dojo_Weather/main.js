@@ -1,0 +1,8 @@
+function message(){
+    
+}
+
+function hide(){
+
+}
+
