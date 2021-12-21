@@ -1,5 +1,6 @@
-var profileLink = 
+var profileLink = document.querySelector(".bottom-info-box-profile-full-name")
 
-function edit(){
-    
+function changeName(){
+    var profileLink = document.querySelector(".bottom-info-box-profile-full-name")
+    profileLink.innerText
 }
