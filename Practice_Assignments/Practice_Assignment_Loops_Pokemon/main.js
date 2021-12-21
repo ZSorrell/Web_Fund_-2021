@@ -24,24 +24,29 @@ var pokémon = [
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ];
 
+//console.log the pokémon objects whose id is evenly divisible by 3
 for(var i = 0; i < pokémon.length; i++) {
     if(pokémon[i].id % 3 === 0){
         console.log(pokémon[i].name);
     }
 }
 
+//console.log the pokémon objects that have more than one type
 for(var i = 0; i < pokémon.length; i++) {
     if(pokémon[i].types.length > 1) {
         console.log(pokémon[i].name);
     }    
 }
 
+//console.log the names of the pokémon whose only type is "poison"
 for(var i = 0; i < pokémon.length; i++) {
     if(pokémon[i].types.length < 2 && pokémon[i].types.length[0] == "poison") {
         console.log(pokémon[i].name);
     }    
 }
 
+
+//console.log the first type of all the pokémon whose second type is "flying"
 for(var i = 0; i < pokémon.length; i++) {
     if(pokémon[i].types.length >= 2 && pokémon[i].types[1] == "flying") {
         console.log(pokémon[i].types[0]);
