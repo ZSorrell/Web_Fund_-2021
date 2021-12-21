@@ -1,12 +1,171 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 #container{
     width: 1200px;
+    height: 800px;
 }
 
-h1{
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    color: white;
+    font-size: 23px;
+    height: 80px;
+}
+
+#navbar > h1{
+    margin-left: 150px;
+}
+
+.Burbank{
+    margin-left: 150px;
+}
+
+.Chicago, .Dallas{
+    margin: 30px;
+}
+
+#tempbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    width: 835px;
+    font-size: 18px;
+}
+
+#tempbar > h1{
+    margin-left: 0px;
+}
+
+#tempbar > p{
+    margin-left: 380px;
+}
+
+#temperature{
+    margin-left: 10px;
+}
+
+#tempbody{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 835px;
+    height: 380px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.tempbox-one, .tempbox-two, .tempbox-three, .tempbox-four{
+    width: 190px;
+    background-color: lightgray;
+}
+
+.tempbox-one > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.tempbox-two > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+} 
+.tempbox-three > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.tempbox-four > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.tempbox-one > h1{
+    margin-left: 47px;
+    margin-top: 20px;
+}
+
+.tempbox-two > h1{
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.tempbox-three > h1{
+    margin-left: 48px;
+    margin-top: 20px;
+}
+
+.tempbox-four > h1{
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.some-rain{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.some-sun{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.some-clouds{
+    font-size: 20px;
+    margin-left: 39px;
+    margin-top: 30px;
+}
+
+.degree-one, .degree-two{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.degree-one{
+    margin-left: 35px;
+    margin-top: 40px;
     color: red;
+}
+
+.degree-two{
+    margin-left: 60px;
+    color: blue;
+}
+
+#cookie-alert{
+    background-color: lightgray;
+    border: 1px dotted black;
+    width: 833px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 150px;
+    position: fixed;
+    bottom: 580px;
+}
+
+#cookie-alert > img{
+    width: 80px;
+    height: 80px;
 }
