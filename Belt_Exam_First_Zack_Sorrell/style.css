@@ -1,12 +1,280 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 #container{
-    width: 1200px;
+    width: 1400px;
+    height: 1000px;
+    background-color: white;
 }
 
-#container > h1{
-    color: aqua;
+#navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    width: 1140px;
+    height: 75px;
+}
+
+.leaf-image{
+    background-color: lightseagreen;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.shopping-cart{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+#navbar > h1{
+    font-size: 48px;
+}
+
+
+.search-bar{
+    width: 700px;
+    height: 30px;
+}
+
+#navbar > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#linkbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 1111px;
+    height: 75px;
+    border-bottom: 4px solid black;
+}
+
+#linkbar > a{
+    text-decoration: none;
+    color: black;
+}
+
+#page-title{
+    background-color: white;
+    width: 1143px;
+    margin-left: 119px;
+    margin-top: 20px;
+}
+
+#page-title > h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+#mid-info-box{
+    width: 1143px;
+    height: 350px;
+    margin-left: 119px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.left-col{
+    width: 60%;
+    display: flex;
+}
+
+.paragraph-main{
+    background-color: lightseagreen;
+    font-size: 35px;
+    color: white;
+}
+
+.saying{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.discover, .top-right-arrow{
+    display: inline-block;
+}
+
+.discover{
+    margin-top: 30px;
+    margin-left: 65px;
+    text-align: center;
+}
+
+.top-right-arrow{
+}
+
+.plant-picture > img{
+    width: 350px;
+    height: 349px;
+}
+
+.right-col{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.plant-picture-two > img{
+    width: 450px;
+    height: 216px;
+}
+
+.soothing-aloe{
+    background-color: lightseagreen;
+    font-size: 20px;
+    width: 450px;
+    height: 99px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.soothing-aloe > img{
+    background-color: lightseagreen;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.soothing-aloe > p{
+    margin-left: 25px;
+    color: white;
+}
+
+#imagebox{
+    background-color: paleturquoise;
+    width: 1125px;
+    height: 340px;
+    margin-top: 30px;
+    margin-left: 119px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aeonium > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.aeonium > p{
+    margin-top: 30px;
+    margin-left: 47px;
+}
+
+.agave > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.agave > p{
+    margin-top: 30px;
+    margin-left: 57px;
+}
+
+.cactus > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.cactus > p{
+    margin-top: 30px;
+    margin-left: 57px;
+}
+
+.echeveria > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.echeveria > p{
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+.sedum > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.sedum > p{
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.sempervivum > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.sempervivum > p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#plant-alert{
+    background-color: white;
+    border: 2px solid black;
+    width: 1145px;
+    margin-left: 119px;
+    margin-top: 20px;
+    height: 150px;
+    position: fixed;
+    bottom: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plant-alert > img{
+    width: 80px;
+    height: 80px;
+}
+
+.plant-body{
+    width: 700px;
+    height: 95px;
+    margin-top: 55px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+.warning{
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+.button{
+    height: 32px;
+    width: 90px;
+    margin-top: 55px;
+    margin-right: 40px;
+    border: thin solid black;
+    box-shadow: 5px 5px 0px black;
+    background-color: lightseagreen;
+    font-size: 16px;
 }

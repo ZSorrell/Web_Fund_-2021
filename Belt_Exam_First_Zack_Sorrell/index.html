@@ -8,8 +8,78 @@
         <title>Belt Exam Zack Sorrell</title>
     </head>
     <body>
-        <div><div id="container">
-            <h1>Hello World!</h1>
+        <div id="container">
+        <div id="navbar">
+            <img src="images/leaf.png" alt="leaf-image" class="leaf-image">
+            <h1>EasyBay</h1>
+            <input class="search-bar" type="text" placeholder="Search for anything">
+            <a href="Sign-In">Sign In</a>
+            <img onclick="shoppingCart()" src="images/cart-dark.png" alt="shopping-cart-image" class="shopping-cart">
+        </div>    
+        <div id="linkbar">
+            <a href="Aeonium">Aeonium</a>
+            <a href="Andormischus">Andormischus</a>
+            <a href="Agave">Agave</a>
+            <a href="Aloe">Aloe</a>
+            <a href="Anacampseros">Anacampseros</a>
+            <a href="Aristaloe">Aristaloe</a>
+            <a href="More...">More...</a>
+        </div>
+        <div id="page-title">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <div id="mid-info-box">
+            <div class="left-col">
+                <div class="paragraph-main">
+                    <p class="saying">Discover succulent varieties one pot or rack at a time!</p>
+                    <p class="discover">Discover</p>
+                    <img class="top-right-arrow" src="images/arrow-light.png" alt="right-arrow">
+                </div>
+                <div onmouseover="newPic()" onmouseout="oldPic()" class="plant-picture">
+                    <img id="event" onmouseover="newPic()" onmouseout="oldPic()" src="images/succulents-1.jpg" alt="succulents-plant">
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="plant-picture-two">
+                    <img src="images/aloe-m.jpg" alt="aloe-plant">
+                </div>
+                <div class="soothing-aloe">
+                    <p>Soothing Aloe </p>
+                    <img src="images/arrow-light.png" alt="arrow-right">
+                </div>
+            </div>
+        </div>       
+        <div id="imagebox">
+            <div class="aeonium">
+                <img src="images/aeonium-s.jpg" alt="aeonium-plant">
+                <p>Aeonium</p>
+            </div>
+            <div class="agave">
+                <img src="images/aloe-s.jpg" alt="aloe-plant">
+                <p>Agave</p>
+            </div>
+            <div class="cactus">
+                <img src="images/cactus-s.jpg" alt="cactus-plant">
+                <p>Cactus</p>
+            </div>
+            <div class="echeveria">
+                <img src="images/echeveria-s.jpg" alt="echeveria-plant">
+                <p>Echeveria</p>
+            </div>
+            <div class="sedum">
+                <img src="images/sedum-s.jpg" alt="sedum-plant">
+                <p>Sedum</p>
+            </div>
+            <div class="sempervivum">
+                <img src="images/sempervivum-s.jpg" alt="sempervivum-plant">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+        <div id="plant-alert">
+            <img class="warning" src="images/alert-dark.png" alt="cookie-picture">
+            <p class="plant-body">This site makes use of third-party cookies, by clicking "I Accept" you agree to the terms outlines in our <a href="cookie-policy.">cookie policy.</a></p>
+            <button onclick="hide()" class="button">I Accept</button>
+        </div>
         </div>
 
         <script src="main.js"></script>
