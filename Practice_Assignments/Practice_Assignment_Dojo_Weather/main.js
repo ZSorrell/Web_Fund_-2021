@@ -7,10 +7,5 @@ function hide(){
     cookiealert.remove()
 }
 
-function swapToFar(){
-    var degreeOne = document.querySelectorAll("degree-one")
-    var degreeTwo = document.querySelectorAll("degree-two")
-    var selector = document.querySelectorAll("temperature")
 
-}
 
